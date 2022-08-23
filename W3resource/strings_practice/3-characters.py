@@ -9,7 +9,7 @@ def string_characters(x=""):
 
     counter = mod.string_len_calc(x)
     if counter < 2:
-        return ""
+        return
     if counter == 2:
         return my_string * 2
 
