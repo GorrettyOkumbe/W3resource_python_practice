@@ -13,11 +13,9 @@ def remove (my_string, n):
         raise Typerror("my string is not a string")
     string=""
     for x, y in enumerate(my_string):
-        if x == n:
-            continue
-        string += y
+        if x != n:
+            string += y
     return string
 
 print(remove("python", 1))
 
-         
